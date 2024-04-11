@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\MyFirstMVC.csproj",
-      "projectName": "MyFirstMVC",
-      "projectPath": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\MyFirstMVC.csproj",
+      "projectUniqueName": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj",
+      "projectName": "ChemeaseWeb",
+      "projectPath": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj",
       "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyFirstMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MyFirstMVC.bundle.scp.css"
+      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChemeaseWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ChemeaseWeb.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyFirstMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChemeaseWeb.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyFirstMVC.props",
-      "PackagePath": "build\\MyFirstMVC.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChemeaseWeb.props",
+      "PackagePath": "build\\ChemeaseWeb.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyFirstMVC.props",
-      "PackagePath": "buildMultiTargeting\\MyFirstMVC.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChemeaseWeb.props",
+      "PackagePath": "buildMultiTargeting\\ChemeaseWeb.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyFirstMVC.props",
-      "PackagePath": "buildTransitive\\MyFirstMVC.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChemeaseWeb.props",
+      "PackagePath": "buildTransitive\\ChemeaseWeb.props"
     }
   ],
   "ElementsToRemove": []

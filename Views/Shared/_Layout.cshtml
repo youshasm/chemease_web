@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MyFirstMVC</title>
+    <title>@ViewData["Title"] - Chemease</title>
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -12,17 +12,27 @@
     <!-- Apply flexbox to the body -->
     @{
         var logo = "36px";
-        var pageBtn = "24px";
+        var pageBtn = "20px";
+        var space = "50px";
     }
     <header style="background-color: darkblue; color: white; padding: 8px; display: flex; justify-content: space-between; align-items: center;">
-        <div style="display: flex; align-items: center;">
-            <h1 style="margin: 0; font-size: @logo;">  Chemease</h1>
+        <div style="display: flex; align-items: center; margin-right: 20px;">
+            <h1 style="margin: 0; font-size: @logo;">Chemease</h1>
         </div>
-        <div style="flex-grow: 1; text-align: center;">
-            <a href="~/Home/Buy" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn;">Buy</a>
-            <a href="~/Home/Sell" style="color: white; text-decoration: none; font-size: @pageBtn;">Sell</a>
+        <div style="flex-grow: 1; text-align: left;">
+            <span style="margin-right: @space;">&nbsp;</span>
+            <a href="~/Home/AboutUs" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">About Us</a>
+            <span style="margin-right: @space;">&nbsp;</span> 
+            <a href="~/Home/Contact" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">Contact</a>
+            <span style="margin-right: @space;">&nbsp;</span> 
+            <a href="~/Home/Shop" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">Shop</a>
+            <span style="margin-right: @space;">&nbsp;</span>  
+            <input type="text" placeholder="Search..." style="padding: 5px; border-radius: 5px; border: 1px solid #ccc; margin-right: 40px; width: 300px;">
+            <span style="margin-right: @space;">&nbsp;</span>
+            <a href="~/Home/Cart" style="color: white; text-decoration: none; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">Cart</a>
         </div>
     </header>
+
 
     <div class="container" style="flex: 1;">
         <main role="main" class="pb-3">

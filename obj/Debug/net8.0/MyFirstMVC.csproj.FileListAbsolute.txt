@@ -28,3 +28,4 @@ C:\Users\ok\source\repos\MyFirstMVC\obj\Debug\net8.0\refint\MyFirstMVC.dll
 C:\Users\ok\source\repos\MyFirstMVC\obj\Debug\net8.0\MyFirstMVC.pdb
 C:\Users\ok\source\repos\MyFirstMVC\obj\Debug\net8.0\MyFirstMVC.genruntimeconfig.cache
 C:\Users\ok\source\repos\MyFirstMVC\obj\Debug\net8.0\ref\MyFirstMVC.dll
+C:\Users\ok\source\repos\MyFirstMVC\obj\Debug\net8.0\MyFirstMVC.sourcelink.json

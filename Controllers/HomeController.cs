@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using MyFirstMVC.Models;
 using System.Diagnostics;
 
-namespace MyFirstMVC.Controllers
+namespace ChemeaseWeb.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,15 +13,23 @@ namespace MyFirstMVC.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
-        public IActionResult Sell()
+        public IActionResult Contact()
         {
             return View();
         }
-        public IActionResult Buy()
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+        public IActionResult Shop()
+        {
+            return View();
+        }
+        public IActionResult Cart()
         {
             return View();
         }
@@ -30,7 +38,7 @@ namespace MyFirstMVC.Controllers
         {
             return View();
         }
-        public IActionResult Login(string username,string password) // Assuming your LoginViewModel contains username and password fields
+        public IActionResult Signin(string username,string password) // Assuming your LoginViewModel contains username and password fields
         {
             // Validate user credentials here
             // If credentials are valid, redirect to the homepage
