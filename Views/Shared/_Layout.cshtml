@@ -1,55 +1,144 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Chemease</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shop &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="gettemplates.co" />
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<!--
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE
+	DESIGNED & DEVELOPED by FreeHTML5.co
+
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="~/external/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="/external/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="~/external/css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="~/external/css/flexslider.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="~/external/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="~/external/css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="~/external/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="~/external/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 </head>
-<body style="display: flex; flex-direction: column; min-height: 100vh; margin: 0;">
-    <!-- Apply flexbox to the body -->
-    @{
-        var logo = "36px";
-        var pageBtn = "20px";
-        var space = "50px";
-    }
-    <header style="background-color: darkblue; color: white; padding: 8px; display: flex; justify-content: space-between; align-items: center;">
-        <div style="display: flex; align-items: center; margin-right: 20px;">
-            <h1 style="margin: 0; font-size: @logo;">Chemease</h1>
-        </div>
-        <div style="flex-grow: 1; text-align: left;">
-            <span style="margin-right: @space;">&nbsp;</span>
-            <a href="~/Home/AboutUs" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">About Us</a>
-            <span style="margin-right: @space;">&nbsp;</span> 
-            <a href="~/Home/Contact" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">Contact</a>
-            <span style="margin-right: @space;">&nbsp;</span> 
-            <a href="~/Home/Shop" style="color: white; text-decoration: none; margin-right: 20px; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">Shop</a>
-            <span style="margin-right: @space;">&nbsp;</span>  
-            <input type="text" placeholder="Search..." style="padding: 5px; border-radius: 5px; border: 1px solid #ccc; margin-right: 40px; width: 300px;">
-            <span style="margin-right: @space;">&nbsp;</span>
-            <a href="~/Home/Cart" style="color: white; text-decoration: none; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='white'">Cart</a>
-        </div>
-    </header>
+<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-2">
+						<div id="fh5co-logo"><a href="~/Home/Homepage">Chemease.</a></div>
+					</div>
+					<div class="col-md-6 col-xs-6 text-center menu-1">
+						<ul>
+							<li class="has-dropdown">
+								<a href="~/Home/Shop">Shop</a>
+								@* <ul class="dropdown">
+									<li><a href="single.html">Single Shop</a></li>
+								</ul> *@
+							</li>
+							<li><a href="~/Home/AboutUs">About</a></li>
+							@* <li class="has-dropdown">
+								<a href="services.html">Services</a>
+								<ul class="dropdown">
+									<li><a href="#">Web Design</a></li>
+									<li><a href="#">eCommerce</a></li>
+									<li><a href="#">Branding</a></li>
+									<li><a href="#">API</a></li>
+								</ul>
+							</li> *@
+							<li><a href="~/Home/Contact">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
+						<ul>
+							<li class="search">
+								<div class="input-group">
+									<input type="text" placeholder="Search..">
+									<span class="input-group-btn">
+										<button class="btn btn-primary" type="button"><i class="icon-search"></i></button>
+									</span>
+								</div>
+							</li>
+							<li class="shopping-cart"><a href="#" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</nav>
+
+		
 
 
-    <div class="container" style="flex: 1;">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+	</div>
 
-    <footer class="border-top footer text-muted" style="background-color:darkblue;color:white;text-align:center;">
-        <div class="container">
-            AST Enterpises Limited
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
+	<div class="container" style="flex: 1;">
+		<main role="main" class="pb-3"> @RenderBody() </main>
+	</div>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+    @await Html.PartialAsync("footer")
+	<!-- jQuery -->
+	<script src="~/external/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="~/external/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="~/external/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="~/external/js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="~/external/js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="~/external/js/jquery.countTo.js"></script>
+	<!-- Flexslider -->
+	<script src="~/external/js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="~/external/js/main.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+

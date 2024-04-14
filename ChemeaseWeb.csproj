@@ -7,7 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Remove="wwwroot\images\cart.png" />
+    <None Remove="wwwroot\images\distil.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\images\cart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\distil.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

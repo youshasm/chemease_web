@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Chemease</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh; margin: 0;background-color:rgb(238, 238, 238)">
+    <!-- Apply flexbox to the body -->
+    @{
+        var logo = "36px";
+        var pageBtn = "15px";
+        var space = "10px";
+    }
+    <header style="background-color: ghostwhite; color: white; padding: 8px; display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; align-items: center; margin-right: 20px;">
+            <a href="~/Home/Homepage" style="text-decoration: none;margin-right:150px;">
+                <h1 style=" font-size: @logo;color:black;margin-left:70px">Chemease</h1>
+            </a>
+        </div>
+        <div class="col-md-6 col-xs-6 text-center menu-1">
+            <ul>
+                <li class="has-dropdown">
+                    <a href="~/Home/Shop">Shop</a>
+                    @* <ul class="dropdown">
+                        <li><a href="single.html">Single Shop</a></li>
+                    </ul> *@
+                </li>
+                <li><a href="~/Home/AboutUs">About</a></li>
+                <li class="has-dropdown">
+                    <a href="services.html">Services</a>
+                    @* <ul class="dropdown">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">eCommerce</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul> *@
+                </li>
+                <li><a href="~/Home/Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
+            <ul>
+                <li class="search">
+                    <div class="input-group">
+                        <input type="text" placeholder="Search..">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button"><i class="icon-search"></i></button>
+                        </span>
+                    </div>
+                </li>
+                <li class="shopping-cart"><a href="#" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+            </ul>
+        </div>
+        @* <div style="flex-grow: 1; text-align: left;">
+
+            <a href="~/Home/AboutUs" style="color:blue; text-decoration: none; font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='rgb(0, 173, 181)'" onmouseout="this.style.color='blue'">About Us</a>
+            <span style="margin-right: @space;">&nbsp;</span>
+            <a href="~/Home/Contact" style="color: blue; text-decoration: none;  font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='rgb(0, 173, 181'" onmouseout="this.style.color='blue'">Contact</a>
+            <span style="margin-right: @space;">&nbsp;</span> 
+            <a href="~/Home/Shop" style="color: blue; text-decoration: none;  font-size: @pageBtn; transition: color 0.3s;" onmouseover="this.style.color='rgb(0, 173, 181'" onmouseout="this.style.color='blue'">Shop</a>
+            <span style="margin-right: @space;">&nbsp;</span>  
+            <input type="text" placeholder="Search..." style="padding: 5px; border-radius: 5px; border: 1px solid #ccc; width: 300px;">
+            <span style="margin-right: @space;">&nbsp;</span>
+            <a href="~/Home/Cart" style="text-decoration: none;">
+                <img src="~/images/cart.png" alt="Cart" style="width: 20px; height: auto; transition: filter 0.3s;" onmouseover="this.style.filter='brightness(0.5)'" onmouseout="this.style.filter='brightness(1)'">
+            </a>
+
+        </div> *@
+    </header>
+
+
+    <div class="container" style="flex: 1;">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted" style="background-color:darkblue;color:white;text-align:center;">
+        <div class="container">
+            AST Enterpises Limited
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,247 +1,563 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChemeaseWeb.bundle.scp.css",
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChemeaseWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\ChemeaseWeb.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\animate.css",
+      "PackagePath": "staticwebassets\\external\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\external\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\external\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\external\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\external\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\external\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\style.css",
+      "PackagePath": "staticwebassets\\external\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\external\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\external\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\external\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\external\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\external\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\external\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\google_map.js",
+      "PackagePath": "staticwebassets\\external\\js\\google_map.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\jquery.countTo.js",
+      "PackagePath": "staticwebassets\\external\\js\\jquery.countTo.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\external\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\jquery.flexslider-min.js",
+      "PackagePath": "staticwebassets\\external\\js\\jquery.flexslider-min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\external\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\external\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\main.js",
+      "PackagePath": "staticwebassets\\external\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\modernizr-2.6.2.min.js",
+      "PackagePath": "staticwebassets\\external\\js\\modernizr-2.6.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\external\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\respond.min.js",
+      "PackagePath": "staticwebassets\\external\\js\\respond.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\sass\\_bootstrap-compass.scss",
+      "PackagePath": "staticwebassets\\external\\sass\\_bootstrap-compass.scss"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\sass\\_bootstrap-mincer.scss",
+      "PackagePath": "staticwebassets\\external\\sass\\_bootstrap-mincer.scss"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\sass\\_bootstrap-sprockets.scss",
+      "PackagePath": "staticwebassets\\external\\sass\\_bootstrap-sprockets.scss"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\sass\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\external\\sass\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\external\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\images\\amber.jpg",
+      "PackagePath": "staticwebassets\\images\\amber.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\images\\distil.jpg",
+      "PackagePath": "staticwebassets\\images\\distil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\images\\frac.png",
+      "PackagePath": "staticwebassets\\images\\frac.png"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

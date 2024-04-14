@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChemeaseWeb
 build_property.RootNamespace = ChemeaseWeb
-build_property.ProjectDir = C:\Users\ok\source\repos\MyFirstMVC\
+build_property.ProjectDir = C:\Users\ok\source\repos\ChemeaseWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ok\source\repos\MyFirstMVC
+build_property.MSBuildProjectDirectory = C:\Users\ok\source\repos\ChemeaseWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/AboutUs.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/Cart.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/Contact.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/Homepage.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/Homepage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lcGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/Login.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/Privacy.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Home/Shop.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Shared/Error.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Shared/HnF.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhuRi5jc2h0bWw=
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Shared/footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/_ViewImports.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/_ViewStart.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ok/source/repos/MyFirstMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/ok/source/repos/ChemeaseWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xxhfdc7axx

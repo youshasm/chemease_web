@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj": {}
+    "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\ChemeaseWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj": {
+    "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\ChemeaseWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj",
+        "projectUniqueName": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\ChemeaseWeb.csproj",
         "projectName": "ChemeaseWeb",
-        "projectPath": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj",
+        "projectPath": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\ChemeaseWeb.csproj",
         "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\obj\\",
+        "outputPath": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

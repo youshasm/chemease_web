@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xn+MK0IJNXCHfCK1aeYp+GrgEbiqMrd9p8LjWyvT4XQVhgQS1DHt5kws//kOBUrk5idIUYeKP8z60OZX3+zZPA==",
+  "dgSpecHash": "Dxn22UWmsvlTENCWRWIKoHKP7VspcWC7t8BAUHgxy0Z7KsNC7RS1FvD2kKAAv56vMUZKY5fygwJ6/8WHNGCIkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ok\\source\\repos\\MyFirstMVC\\ChemeaseWeb.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\ChemeaseWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ok\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
+  ],
   "logs": []
 }
