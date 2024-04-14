@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChemeaseWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1398c1bba87e9fd9bc56e166d9b4275abd073b39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b1bf2f56098e0ba53e866a91179a74e1018b85e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChemeaseWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChemeaseWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

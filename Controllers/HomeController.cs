@@ -17,6 +17,10 @@ namespace ChemeaseWeb.Controllers
         {
             return View();
         }
+        public IActionResult Guides()
+        {
+            return View();
+        }
         public IActionResult Contact()
         {
             return View();
@@ -50,11 +54,17 @@ namespace ChemeaseWeb.Controllers
         {
             return View();
         }
-        public IActionResult Signin(string username,string password) // Assuming your LoginViewModel contains username and password fields
+        public IActionResult Signin(string username, string password)
         {
-            // Validate user credentials here
-            // If credentials are valid, redirect to the homepage
-            return RedirectToAction("Homepage", "Home");
+            if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
+            {
+                return RedirectToAction("Homepage", "Home");
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Invalid username or password.";
+                return RedirectToAction("Login", "Home");
+            }
         }
         public IActionResult Homepage()
         {
