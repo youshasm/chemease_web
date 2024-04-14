@@ -21,7 +21,11 @@ namespace ChemeaseWeb.Controllers
         {
             return View();
         }
-        public IActionResult AboutUs()
+		public IActionResult Testimonials()
+		{
+			return View();
+		}
+		public IActionResult AboutUs()
         {
             return View();
         }
@@ -33,8 +37,16 @@ namespace ChemeaseWeb.Controllers
         {
             return View();
         }
+        public IActionResult PCM()
+        {
+            return View();
+        }
+		public IActionResult Register()
+		{
+			return View();
+		}
 
-        public IActionResult Privacy()
+		public IActionResult Privacy()
         {
             return View();
         }

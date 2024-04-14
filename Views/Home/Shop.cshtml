@@ -1,54 +1,247 @@
-﻿@{
+﻿@{	
     Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Shop";
 }
 
-<h1 style="text-align:center">Let's Shop</h1>
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/frac.png);">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="display-t">
+					<div class="display-tc animate-box" data-animate-effect="fadeIn">
+						<h1
+							>Product</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
 
-<div class="container">
-    <div class="row">
-        <!-- Product Box 1 -->
-        <div class="col-md-4">
-            <div class="product-box">
-                <img src="~/images/distil.jpg" alt="Product 1" width="100%">
-                <h3>Product 1</h3>
-                <p>Stock Quantity: 10</p>
-                <p>Price: $10.00</p>
-                <p>Weight: 1 lb</p>
-                <button style="color:rgb(0, 173, 181)">Add to Cart</button>
-            </div>
-        </div>
-
-        <!-- Product Box 2 -->
-        <div class="col-md-4">
-            <div class="product-box">
-                <img src="product2.jpg" alt="Product 2" style="width: 100%;">
-                <h3>Product 2</h3>
-                <p>Stock Quantity: 15</p>
-                <p>Price: $15.00</p>
-                <p>Weight: 2 lb</p>
-                <button style="color:rgb(0, 173, 181)">Add to Cart</button>
-            </div>
-        </div>
-
-        <!-- Product Box 3 -->
-        <div class="col-md-4">
-            <div class="product-box">
-                <img src="product3.jpg" alt="Product 3" style="width: 100%;">
-                <h3>Product 3</h3>
-                <p>Stock Quantity: 20</p>
-                <p>Price: $20.00</p>
-                <p>Weight: 3 lb</p>
-                <button style="color:rgb(0, 173, 181)">Add to Cart</button>
-            </div>
-        </div>
-    </div>
+<div id="fh5co-product">
+	<div class="container">
+		<div class="row animate-box">
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<span>Cool Stuff</span>
+				<h2>Products.</h2>
+				<p>Crafting Solutions, Catalyzing Discoveries</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/distil.jpg);">
+						<div class="inner">
+							<p>
+								<a  class="icon"><i class="icon-shopping-cart"></i></a>
+								<a  class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a >Distillation Apparatus</a></h3>
+						<span class="price">750 PKR</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/amber.jpg);">
+						<div class="inner">
+							<p>
+								<a  class="icon"><i class="icon-shopping-cart"></i></a>
+								<a  class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a >Amber Bottle</a></h3>
+						<span class="price">500 PKR</span>
+					</div>
+                </div>
+				<div class="add-to-cart">
+                    <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+                </div>
+			</div>
+			
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/frac.png);">
+						<div class="inner">
+							<p>
+								<a class="icon"><i class="icon-shopping-cart"></i></a>
+								<a  class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a >Fractionating Column</a></h3>
+						<span class="price">1000 PKR</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+				@* <div class="quantity-selector">
+					<div class="quantity-controls">
+						<button type="button" class="btn btn-danger btn-number" data-type="minus" data-field="">
+							<i class="icon-minus"></i>
+						</button>
+						<input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="0" max="100">
+						<button type="button" class="btn btn-success btn-number" data-type="plus" data-field="">
+							<i class="icon-plus"></i>
+						</button>
+					</div>
+				</div> *@
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/product-4.jpg);">
+						<div class="inner">
+							<p>
+								<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
+								<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="single.html">Alato Cabinet</a></h3>
+						<span class="price">$800</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/product-5.jpg);">
+						<div class="inner">
+							<p>
+								<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
+								<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="single.html">Earing Wireless</a></h3>
+						<span class="price">$100</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/product-6.jpg);">
+						<div class="inner">
+							<p>
+								<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
+								<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="single.html">Sculptural Coffee Table</a></h3>
+						<span class="price">$960</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/product-7.jpg);">
+						<div class="inner">
+							<p>
+								<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
+								<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="single.html">The WW Chair</a></h3>
+						<span class="price">$540</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/product-8.jpg);">
+						<div class="inner">
+							<p>
+								<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
+								<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="single.html">Himitsu Money Box</a></h3>
+						<span class="price">$55</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center animate-box">
+				<div class="product">
+					<div class="product-grid" style="background-image:url(images/product-9.jpg);">
+						<div class="inner">
+							<p>
+								<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
+								<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="single.html">Ariane Prin</a></h3>
+						<span class="price">$99</span>
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<style>
-    .product-box {
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-</style>
+<div id="fh5co-started">
+	<div class="container">
+		<div class="row animate-box">
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<h2>Newsletter</h2>
+				<p>Just stay tune for our latest Product. Now you can subscribe</p>
+			</div>
+		</div>
+		<div class="row animate-box">
+			<div class="col-md-8 col-md-offset-2">
+				<form class="form-inline">
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<button type="submit" class="btn btn-default btn-block">Subscribe</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

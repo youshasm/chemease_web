@@ -1,17 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Register";
 }
 <!DOCTYPE HTML>
 <html>
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shop &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-@*     <meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
+    <meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
     <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
     <meta name="author" content="gettemplates.co" />
- *@
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="~/external/css/animate.css">
     <link rel="stylesheet" href="/external/css/icomoon.css">
@@ -49,43 +49,32 @@
     <div class="fh5co-loader"></div>
 
     <div id="page">
-        <nav class="fh5co-nav" role="navigation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-xs-2">
-                        <div id="fh5co-logo"><a href="~/Home/Homepage">Chemease.</a></div>
-                    </div>
+        <div class="login-container">
+            <form id="register-form" class="login-form" action="#" method="post">
+                <h2>Register</h2>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" class="form-control" required>
                 </div>
-            </div>
-        </nav>
-
-        <div class="container">
-            <div class="login-container">
-                <!-- Added container for the login form -->
-                <div class="login-form">
-                    <h2>Login</h2>
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="username">Username:</label>
-                            <input type="text" class="form-control" id="username" name="username" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="password" name="password" required>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block">Login</button>
-                        </div>
-                        <div class="form-group">
-                            <h4>New Here ?</h4>
-                            <a href="~/Home/Register" class="btn btn-secondary btn-block">Register</a>
-                        </div>
-                    </form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Register</button>
+                </div>
+            </form>
         </div>
-
     </div>
+
 
     <div class="gototop js-top">
         <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
@@ -102,3 +91,4 @@
     <script src="~/external/js/main.js"></script>
 </body>
 </html>
+
