@@ -54,18 +54,7 @@ namespace ChemeaseWeb.Controllers
         {
             return View();
         }
-        public IActionResult Signin(string username, string password)
-        {
-            if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
-            {
-                return RedirectToAction("Homepage", "Home");
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "Invalid username or password.";
-                return RedirectToAction("Login", "Home");
-            }
-        }
+    
         public IActionResult Homepage()
         {
             return View(); 

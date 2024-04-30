@@ -1,4 +1,10 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using ChemeaseWeb.Data;
+using ChemeaseWeb.Data.DataModel;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<InventoryDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ChemeaseWebContext") ?? throw new InvalidOperationException("Connection string 'ChemeaseWebContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -22,7 +28,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Shop}/{id?}");
+    pattern: "{controller=Home}/{action=Login}/{id?}");
 
 
 app.Run();
