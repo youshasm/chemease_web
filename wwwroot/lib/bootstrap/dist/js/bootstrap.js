@@ -592,15 +592,17 @@
         defaultPrevented = jQueryEvent.isDefaultPrevented();
       }
 
-      if (isNative) {
-        evt = document.createEvent('HTMLEvents');
-        evt.initEvent(typeEvent, bubbles, true);
-      } else {
-        evt = new CustomEvent(event, {
-          bubbles,
-          cancelable: true
-        });
-      } // merge custom information in our event
+        if (isNative) {
+            evt = new CustomEvent(typeEvent, {
+                bubbles: true,
+                cancelable: true
+            });
+        } else {
+            evt = new CustomEvent(event, {
+                bubbles: bubbles,
+                cancelable: true
+            });
+        }
 
 
       if (typeof args !== 'undefined') {
@@ -997,8 +999,8 @@
     offset(element) {
       const rect = element.getBoundingClientRect();
       return {
-        top: rect.top + window.pageYOffset,
-        left: rect.left + window.pageXOffset
+        top: rect.top + window.scrollY,
+        left: rect.left + window.scrollX
       };
     },
 

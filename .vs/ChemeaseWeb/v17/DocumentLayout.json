@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\wwwroot\\external\\css\\icomoon.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:wwwroot\\external\\css\\icomoon.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\models\\tables\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:models\\tables\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|c:\\users\\ok\\source\\repos\\chemeaseweb\\data\\datamodel\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A809D3F-C0DB-4D96-B34F-5EC4322D6E08}|ChemeaseWeb.csproj|solutionrelative:data\\datamodel\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwDEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T21:34:00.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAADIAAABAZmZmZmYkwD8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T21:23:24.373Z",
+              "DocumentIndex": 0,
+              "Title": "icomoon.css",
+              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\icomoon.css",
+              "RelativeDocumentMoniker": "wwwroot\\external\\css\\icomoon.css",
+              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\css\\icomoon.css",
+              "RelativeToolTip": "wwwroot\\external\\css\\icomoon.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-01T12:08:19.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Models\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Models\\RegisterViewModel.cs",
-              "RelativeToolTip": "Models\\RegisterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:03:14.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserAccount.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Models\\tables\\UserAccount.cs",
-              "RelativeDocumentMoniker": "Models\\tables\\UserAccount.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Models\\tables\\UserAccount.cs",
-              "RelativeToolTip": "Models\\tables\\UserAccount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:10:13.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:54:21.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAABAMzMzMzMbwB4AAAAeAAAA",
+              "ViewState": "AQIAAA8AAABgZmZmZmYkwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:53:43.57Z",
+              "WhenOpened": "2024-05-01T11:11:21.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "Models\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:54:17.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T21:35:00.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Controllers\\RegisterController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:11:02.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "Views\\Home\\Register.cshtml",
-              "ViewState": "AQIAACcAAABgZmZmZmYkwDQAAABSAAAA",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAACAZmZmZmYkwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T20:12:52.045Z",
+              "WhenOpened": "2024-05-01T11:06:42.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventoryDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Data\\DataModel\\InventoryDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataModel\\InventoryDBContext.cs",
-              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Data\\DataModel\\InventoryDBContext.cs",
-              "RelativeToolTip": "Data\\DataModel\\InventoryDBContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:07:05.085Z",
+              "DocumentIndex": 2,
+              "Title": "Homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Home\\Homepage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Homepage.cshtml",
+              "ToolTip": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\Views\\Home\\Homepage.cshtml",
+              "RelativeToolTip": "Views\\Home\\Homepage.cshtml",
+              "ViewState": "AQIAAEIAAAAAZGZmZmYkwCUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T10:59:34.991Z",
               "EditorCaption": ""
             }
           ]

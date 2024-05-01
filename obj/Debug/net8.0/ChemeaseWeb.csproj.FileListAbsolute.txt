@@ -283,3 +283,4 @@ C:\Users\ok\source\repos\ChemeaseWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\Sy
 C:\Users\ok\source\repos\ChemeaseWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\ok\source\repos\ChemeaseWeb\obj\Debug\net8.0\ChemeaseWeb.csproj.AssemblyReference.cache
 C:\Users\ok\source\repos\ChemeaseWeb\obj\Debug\net8.0\Chemease.2C41E5CF.Up2Date
+C:\Users\ok\source\repos\ChemeaseWeb\bin\Debug\net8.0\libman.json

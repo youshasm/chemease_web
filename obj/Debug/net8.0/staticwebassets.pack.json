@@ -233,20 +233,20 @@
       "PackagePath": "staticwebassets\\external\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.eot",
-      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.eot"
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon\\icomoon.eot"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.svg",
-      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.svg"
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon\\icomoon.svg"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.ttf",
-      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.ttf"
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon\\icomoon.ttf"
     },
     {
-      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon.woff",
-      "PackagePath": "staticwebassets\\external\\fonts\\icomoon.woff"
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\external\\fonts\\icomoon\\icomoon.woff"
     },
     {
       "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\external\\js\\bootstrap.min.js",
@@ -331,6 +331,26 @@
     {
       "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
     },
     {
       "Id": "C:\\Users\\ok\\source\\repos\\ChemeaseWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
