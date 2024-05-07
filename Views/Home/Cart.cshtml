@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<ChemeaseWeb.Models.CartViewModel>
+
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewData["Title"] = "Cart";
 }
@@ -16,26 +18,49 @@
                     <thead>
                         <tr>
                             <th>Product</th>
+                            <th>Description</th>
                             <th>Price</th>
                             <th>Quantity</th>
                             <th>Total</th>
-                      
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Example cart item -->
-                        <tr>
-                            <td>Product Name</td>
-                            <td>$100</td>
-                            <td>2</td>
-                            <td>$200</td>
-                            <td><button class="btn btn-danger btn-remove">Remove</button></td>
-                        </tr>
-                        <!-- Add more rows for additional cart items -->
+                        @if (Model != null)
+                        {
+                            foreach (var product in Model)
+                            {
+                                <tr>
+                                    <td>@product.ProductName</td>
+                                    <td>@product.ProductDescription</td>
+                                    <td>@product.UnitPrice</td>
+                                    <td>@product.Quantity 
+                                        <td>
+                                        <!-- Decrease quantity button -->
+                                        <button type="button" class="btn btn-sm btn-primary" onclick="decreaseQuantity('@product.ProductID')">-</button>
+                                        <!-- Display current quantity -->
+                                        <span id="quantity-@product.ProductID">@product.Quantity</span>
+                                        <!-- Increase quantity button -->
+                                        <button type="button" class="btn btn-sm btn-primary" onclick="increaseQuantity('@product.ProductID')">+</button>
+                                        </td>
+                                   
+                                   
+
+                                    <!-- Add more columns or customization as needed -->
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6">No products in the cart.</td>
+                            </tr>
+                        }
+
                     </tbody>
                 </table>
                 <div class="text-right">
-                    <p><strong>Total: $200</strong></p>
+                    <p><strong>Total: $@(Model.Sum(item => item.Quantity * (item.UnitPrice)))</strong></p>
                 </div>
                 <div class="text-center">
                     <a href="#" class="btn btn-primary">Checkout</a>
@@ -44,3 +69,28 @@
         </div>
     </div>
 </div>
+<script>
+    function increaseQuantity(productId) {
+        // Get the current quantity
+        var currentQuantity = parseInt($('#quantity-' + productId).text());
+        // Increment the quantity
+        currentQuantity++;
+        // Update the quantity display
+        $('#quantity-' + productId).text(currentQuantity);
+        // You may also want to update the quantity in your data model or send an AJAX request to update the cart on the server
+    }
+
+    function decreaseQuantity(productId) {
+        // Get the current quantity
+        var currentQuantity = parseInt($('#quantity-' + productId).text());
+        // Ensure quantity is not negative
+        if (currentQuantity > 0) {
+            // Decrement the quantity
+            currentQuantity--;
+            // Update the quantity display
+            $('#quantity-' + productId).text(currentQuantity);
+            // You may also want to update the quantity in your data model or send an AJAX request to update the cart on the server
+        }
+    }
+</script>
+

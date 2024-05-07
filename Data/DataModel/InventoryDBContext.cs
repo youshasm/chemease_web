@@ -16,5 +16,8 @@ namespace ChemeaseWeb.Data.DataModel
         //{
         //    modelBuilder.Entity<UserAccount>().HasNoKey();
         //}
+        public DbSet<Products> Products { get; set; }
+
+
     }
 }

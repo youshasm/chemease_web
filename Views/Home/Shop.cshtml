@@ -1,7 +1,21 @@
-﻿@{	
+﻿@model List<ChemeaseWeb.Models.tables.Products>
+@{	
     Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewData["Title"] = "Shop";
 }
+@{
+	// Find the product with ID 2
+	var amber = Model.FirstOrDefault(p => p.ProductID == 2);
+	var distil = Model.FirstOrDefault(p => p.ProductID == 1);
+	var frac = Model.FirstOrDefault(p => p.ProductID == 3);
+
+	var amberJson = Json.Serialize(amber);
+	var distilJson = Json.Serialize(distil);
+	var fracJson = Json.Serialize(frac);
+
+}
+
+
 
 <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('/images/frac.png');">
 	<div class="overlay"></div>
@@ -31,63 +45,91 @@
 		<div class="row">
 			<div class="col-md-4 text-center animate-box">
 				<div class="product">
-					<div class="product-grid" style="background-image:url('/images/distil.jpg');">
+					<div class="product-grid" style="background-image:url('/images/distil.jpg')" data-product-id=" @distil.ProductID" ;">
 						<div class="inner">
 							<p>
-								<a  class="icon"><i class="icon-shopping-cart"></i></a>
-								<a  class="icon"><i class="icon-eye"></i></a>
+								<a class="icon" onclick="addDistil(@distil.ProductID)"><i class="icon-shopping-cart"></i></a>
+								<a class="icon"><i class="icon-eye"></i></a>
 							</p>
 						</div>
 					</div>
-					<div class="desc">
-						<h3><a >Distillation Apparatus</a></h3>
-						<span class="price">750 PKR</span>
-					</div>
+					@if (distil != null)
+					{
+						<div class="desc">
+							<h3><a>@distil.ProductName</a></h3>
+							<span class="price">@distil.UnitPrice.ToString()</span>
+							<br />
+							<span class="price">@distil.ProductDescription</span>
+						</div>
+					}
+					else
+					{
+						<p>Product not found.</p>
+					}
 				</div>
 				<div class="add-to-cart">
 					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
 				</div>
 			</div>
+
 			<div class="col-md-4 text-center animate-box">
 				<div class="product">
-					<div class="product-grid" style="background-image:url('/images/amber.jpg');">
+					<div class="product-grid" style="background-image:url('/images/amber.jpg')" data-product-id=" @amber.ProductID";">
 						<div class="inner">
 							<p>
-								<a  class="icon"><i class="icon-shopping-cart"></i></a>
+								<a class="icon" onclick="addAmber(@amber.ProductID)"><i class="icon-shopping-cart"></i></a>
 								<a  class="icon"><i class="icon-eye"></i></a>
 							</p>
 						</div>
 					</div>
-					<div class="desc">
-						<h3><a >Amber Bottle</a></h3>
-						<span class="price">500 PKR</span>
-					</div>
+					@if (amber != null)
+					{
+						<div class="desc">
+							<h3><a>@amber.ProductName</a></h3>
+							<span class="price">@amber.UnitPrice.ToString()</span>
+							<br />
+							<span class="price">@amber.ProductDescription</span>
+						</div>
+					}
+					else
+					{
+						<p>Product not found.</p>
+					}
                 </div>
 				<div class="add-to-cart">
                     <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
                 </div>
 			</div>
-			
+
 			<div class="col-md-4 text-center animate-box">
 				<div class="product">
-					<div class="product-grid" style="background-image:url('/images/frac.png');">
+					<div class="product-grid" style="background-image:url('/images/frac.png')" data-product-id=" @amber.ProductID" ;">
 						<div class="inner">
 							<p>
-								<a class="icon"><i class="icon-shopping-cart"></i></a>
-								<a  class="icon"><i class="icon-eye"></i></a>
+								<a class="icon" onclick="addFrac(@frac.ProductID)"><i class="icon-shopping-cart"></i></a>
+								<a class="icon"><i class="icon-eye"></i></a>
 							</p>
 						</div>
 					</div>
-					<div class="desc">
-						<h3><a >Fractionating Column</a></h3>
-						<span class="price">1000 PKR</span>
-					</div>
+					@if (frac != null)
+					{
+						<div class="desc">
+							<h3><a>@frac.ProductName</a></h3>
+							<span class="price">@frac.UnitPrice.ToString()</span>
+							<br />
+							<span class="price">@frac.ProductDescription</span>
+						</div>
+					}
+					else
+					{
+						<p>Product not found.</p>
+					}
 				</div>
 				<div class="add-to-cart">
 					<button type="button" class="btn btn-primary btn-block">Add to Cart</button>
 				</div>
-
 			</div>
+
 		</div>
 		<div class="row">
 			<div class="col-md-4 text-center animate-box">
@@ -235,3 +277,83 @@
 		</div>
 	</div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	function addAmber(productId) {
+		var quantity = 1; // You can adjust this as needed
+		var productName = "@amber.ProductName";
+		var productDescription = "@amber.ProductDescription";
+		var unitPrice = "@amber.UnitPrice";
+
+		$.ajax({
+			url: '/Home/AddToCart',
+			type: 'POST',
+			data: {
+				productId: productId,
+				quantity: quantity,
+				productName: productName,
+				productDescription: productDescription,
+				unitPrice: unitPrice
+			},
+			success: function (response) {
+				// Handle success, e.g., show a message or update the cart UI
+				alert('Product added to cart successfully!');
+			},
+			error: function (xhr, status, error) {
+				// Handle error, e.g., show an error message
+				alert('Error adding product to cart: ' + error);
+			}
+		});
+	}
+	function addFrac(productId) {
+		var quantity = 1; // You can adjust this as needed
+		var productName = "@frac.ProductName";
+		var productDescription = "@frac.ProductDescription";
+		var unitPrice = "@frac.UnitPrice";
+
+		$.ajax({
+			url: '/Home/AddToCart',
+			type: 'POST',
+			data: {
+				productId: productId,
+				quantity: quantity,
+				productName: productName,
+				productDescription: productDescription,
+				unitPrice: unitPrice
+			},
+			success: function (response) {
+				// Handle success, e.g., show a message or update the cart UI
+				alert('Product added to cart successfully!');
+			},
+			error: function (xhr, status, error) {
+				// Handle error, e.g., show an error message
+				alert('Error adding product to cart: ' + error);
+			}
+		});
+	} function addDistil(productId) {
+		var quantity = 1; // You can adjust this as needed
+		var productName = "@distil.ProductName";
+		var productDescription = "@distil.ProductDescription";
+		var unitPrice = "@distil.UnitPrice";
+
+		$.ajax({
+			url: '/Home/AddToCart',
+			type: 'POST',
+			data: {
+				productId: productId,
+				quantity: quantity,
+				productName: productName,
+				productDescription: productDescription,
+				unitPrice: unitPrice
+			},
+			success: function (response) {
+				// Handle success, e.g., show a message or update the cart UI
+				alert('Product added to cart successfully!');
+			},
+			error: function (xhr, status, error) {
+				// Handle error, e.g., show an error message
+				alert('Error adding product to cart: ' + error);
+			}
+		});
+	}
+</script>
